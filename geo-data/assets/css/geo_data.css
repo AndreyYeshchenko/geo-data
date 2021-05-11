@@ -1,0 +1,121 @@
+/* CSS styles for Tag component */
+main {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.rule-editor {
+	display:inline-block; 
+	margin:5px; 
+	border-radius: 5px; 
+	width: 120px; 
+	background: #2e96c5; 
+	padding:5px;
+	text-align: center; 
+	height: 80px; 
+	vertical-align: top;
+}
+
+.rule-editor p {
+	background: white; 
+	font-Weight: bold;  
+	margin: 5px;
+}
+.container {  
+  padding: 15px 15px 10px 15px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.container h1 {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.container ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+.container ul li {
+  display: inline-block;
+  background: lightgray;
+  color: black;
+  padding: 3px 5px 3px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.container ul li a {
+  color: black;
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 10px;
+  background: none;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.container ul li a:hover {
+  color: red;
+}
+.container input {
+  border: 0px;
+  background: none;
+  margin-bottom: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+.container input:focus {
+  border: 0px solid gray;  
+  background: none;
+  cursor: pointer;
+}
+
+/* CSS styles for Geofencing component */ 
+#map {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		height: 700px;
+	}
+*/
+#panel {
+	width: 200px;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	float: right;
+	margin: 10px;
+}
+
+#color-palette {
+	clear: both;
+
+}
+
+#delete-button {
+	float:right;
+	margin: 15px;
+}
+.color-button {
+	width: 14px;
+	height: 14px;
+	font-size: 0;
+	margin: 2px;
+	float: left;
+	cursor: pointer;
+}
+
+#delete-button {
+	margin-top: 5px;
+}
+	
